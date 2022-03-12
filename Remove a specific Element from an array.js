@@ -1,5 +1,7 @@
 var arr1=[1,"3",4,5];
 var arr2=[1,"3",4,5,6,'h'];
+
+//using one array
 function remove1(array,x) {
     for (let i = 0; i < array.length; i++) {
         if (array[i]===x) {
@@ -11,6 +13,7 @@ function remove1(array,x) {
     return array;
 }
 
+//using two arrays
 function remove2(array,x) {
     var array2 = [];
     let j=0;
