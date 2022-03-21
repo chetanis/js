@@ -1,11 +1,11 @@
 var obj1={
         firstname:"shush",
-        lastname:"shish"
+        lastname:"sheesh"
     },
     obj2={
         blabla:"suii",
         firstname:"shush",
-        lastname:"shish"
+        lastname:"sheesh"
     };
   
 function compare(obj1,obj2) {
